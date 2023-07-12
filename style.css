@@ -3,6 +3,7 @@
     --sec-color: #756E79;
     --t-color: #A61C26;
     --f-color: #B52734;
+    --color-5: #0D2845;
 }
 
 * {
@@ -60,7 +61,7 @@ header {
 .nav-bar ul li a:hover, .mobile-menu ul li a:hover{
     border-bottom: white solid 3px;
     border-radius: 0 0 3px 3px;
-    transition: 0.2s;
+    transition: 0.1s;
 
 }
 
@@ -117,10 +118,6 @@ header {
     width: 700px;
     color: white;
     padding: 2rem;
-
-    /* position: absolute;
-    top: 15rem;
-    left: 5rem; */
     background-image: url(./images/fondo2.svg);
     border-radius: 10px;
     box-shadow: 3px 3px 20px white;
@@ -173,7 +170,7 @@ header {
     height: auto;
     font-size: 2rem;
     padding: 2rem;
-    color: #001220;
+    color: #0D2845;
     text-align: center;
     margin-bottom: 2rem;
     font-weight: bold;
